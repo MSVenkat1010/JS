@@ -1,0 +1,98 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.container,
+.rps-heading,
+.main-content {
+    text-align: center;
+    color: #333;
+}
+
+.container p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #555;
+}
+
+.container label {
+    font-weight: bold;
+    color: #333;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.buttonChoice {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+
+.playButton {
+    padding: 10px 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+.buttonChoice:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.removeButton {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.buttonList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.playSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
