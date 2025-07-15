@@ -2,64 +2,54 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/index.css">
-    <meta name="description"
-        content="A simple Helloworld example using JavaScript. This page demonstrates how to print 'Hello, World!' to the console.">
-    <meta name="keywords" content="Helloworld, JavaScript, Console Log, Example">
-    <meta name="author" content="Your Name">
-    <meta name="theme-color" content="#ffffff">
-    <title>Helloworld Example</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="./css/index.css" />
 </head>
 
 <body>
-    <div class="container">
+  <div class="container">
 
-        <div class="rps-heading">
-            <h1 class="">Rock , Paper & Scissors</h1>
-        </div>
-
-        <main class="main-content">
-            <h2>Play the Game</h2>
-            <div>
-                <label for="playerChoice"> Choose Rock (R), Paper (P), or Scissors (S):</label>
-            </div>
-
-            <div class="button-container">
-                <div class="buttonList">
-                    <div class="removeButton"><button id="rock" class="buttonChoice" title="Rock"> 🪨</button></div>
-                    <div class="removeButton"><button id="paper" class="buttonChoice" title="Paper" >📄</button></div>
-                    <div class="removeButton"><button id="scissor" class="buttonChoice" title="Scissors" >✂️</button></div>
-                </div>
-            </div>
-
-            <div class="playSection">
-                <button class="buttonChoice playButton" title="Click to Play" onclick="game()">▶️</button>
-            </div>
-            <p id="result"></p>
-        </main>
-        <footer>
-            <p>&copy; 2025 Helloworld Example</p>
-        </footer>
+    <div class="rps-heading">
+      <h1>Rock, Paper & Scissors</h1>
     </div>
-    <script type="text/javascript" src="rps.js"></script>
-    <script>
-        // This script is included to ensure the Helloworld.js file is executed
-        // when the page loads. The console log will appear in the browser's console.
-        console.log("Helloworld.js script loaded successfully.");
-        // You can also run this code in a Node.js environment.
-        // To run it, save the code in a file named Helloworld.js and execute
-        // it using the command: node Helloworld.js
-        // This will print "Hello, World!" to the console.
-        // Enjoy coding!
-        document.addEventListener("DOMContentLoaded", function () {
-            console.log("Document is ready. Check the console for output.");
-        });
-    </script>
 
+    <main class="main-content">
+      <h2>Play the Game</h2>
+
+      <div>
+        <label>Choose Rock (R), Paper (P), or Scissors (S):</label>
+      </div>
+
+      <div class="button-container">
+        <div class="buttonList">
+          <div class="removeButton">
+            <button class="buttonChoice" data-choice="Rock" title="Rock">🪨</button>
+          </div>
+          <div class="removeButton">
+            <button class="buttonChoice" data-choice="Paper" title="Paper">📄</button>
+          </div>
+          <div class="removeButton">
+            <button class="buttonChoice" data-choice="Scissors" title="Scissors">✂️</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="playSection">
+        <button class="buttonChoice playButton" title="Click to Play">▶️</button>
+      </div>
+
+      <p id="result"></p>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Helloworld Example</p>
+    </footer>
+  </div>
+
+  <script src="rps.js"></script>
 </body>
 
 </html>
-</body>
