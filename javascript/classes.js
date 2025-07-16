@@ -469,3 +469,8 @@ try {
 catch (error) {
     console.error(error.message); // Output: Array cannot be empty
 }
+
+//private methods in classes
+class Secret {
+        
+}
