@@ -54,6 +54,7 @@ class Employee extends Person {
 const employee1 = new Employee('David', 35, 'Software Engineer');
 employee1.greet(); // Output: Hello, my name is David, I am 35 years old and I work as a Software Engineer.
 // Creating another employee instance
+employee1.age = 36; // Updating age
 const employee2 = new Employee('Eve', 29, 'Data Scientist');
 employee2.greet(); // Output: Hello, my name is Eve, I am 29 years old and I work as a Data Scientist.
 // Adding a method to Employee class
@@ -93,6 +94,7 @@ class MathUtility extends Utility {
 }
 // Example usage
 console.log(MathUtility.calculateProduct(5, 10)); // Output: 50 
+MathUtility.calculateSum(5, 10); // Output: 15 (inherited from Utility class)
 // Using getters and setters in a class
 class Book {
     constructor(title, author) {
