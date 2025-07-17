@@ -1,3 +1,5 @@
+// import webAPI functions
+import { logMessage } from './webAPI.js';
 const choices = ['Rock', 'Paper', 'Scissors'];
 let playerChoice = null;
 
@@ -36,3 +38,5 @@ function game() {
   const result = playRound(playerChoice, computerChoice);
   document.getElementById('result').innerText = `Computer chose ${computerChoice}. ${result}`;
 }
+
+logMessage("Game initialized. Choose your option!");

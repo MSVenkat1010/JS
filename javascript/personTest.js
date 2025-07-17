@@ -21,7 +21,7 @@ const employee = new Employee("jav","23","Female","3333","Manager");
 
 console.log(employee);
 
-cclass Company {
+class Company {
   #password = "1234";
   #founderName = "DEV";
 
