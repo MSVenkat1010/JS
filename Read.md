@@ -4,7 +4,7 @@
 ## JavaScript Learning Checklist
 
 ### 1. Basics
-- [-] JavaScript syntax and basic data types - Done
+- [ ] JavaScript syntax and basic data types - Done
 - [x] Variables, constants, and scope - Done
 - [x] Operators and expressions - Done
 
