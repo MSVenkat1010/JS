@@ -32,19 +32,19 @@
 - [x] Spread/rest operators - Done
 
 ### 7. Asynchronous JavaScript 
-- [x] Callbacks
-- [x] Promises
-- [x] async/await
+- [ ] Callbacks
+- [ ] Promises
+- [ ] async/await
 
 ### 8. Advanced Topics
-- [x] Modules and imports/exports
-- [x] Classes and inheritance
-- [x] Error handling and debugging
+- [ ] Modules and imports/exports
+- [ ] Classes and inheritance
+- [ ] Error handling and debugging
 
 ### 9. Browser APIs
-- [x] Local storage
-- [x] Fetch API
+- [ ] Local storage
+- [ ] Fetch API
 
 ### 10. Projects & Practice
-- [x] Build small projects (e.g., games, utilities)
-- [x] Write documentation and usage examples
+- [ ] Build small projects (e.g., games, utilities)
+- [ ] Write documentation and usage examples
