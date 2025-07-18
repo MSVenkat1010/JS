@@ -1,4 +1,3 @@
-// import webAPI functions
 import { logMessage } from './webAPI.js';
 const choices = ['Rock', 'Paper', 'Scissors'];
 let playerChoice = null;
