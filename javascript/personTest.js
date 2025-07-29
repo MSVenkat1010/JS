@@ -62,5 +62,6 @@ class Company {
   }
 }
 
+let company = new Company("TechCorp");
 
 
