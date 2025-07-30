@@ -1,4 +1,4 @@
-// * Reverse a string
+// ! Reverse a string
 // * @param {string} str - The string to reverse
 // * @returns {string} - The reversed string
 function reverseString(str) {
@@ -353,3 +353,28 @@ function reverse(arr, start, end) {
     end--;
   }
 }
+//! Longest Word
+/* 
+Have the function LongestWord(sen) take the sen parameter being passed and return the longest word in the string. 
+If there are two or more words that are the same length, return the first word from the string with that length.
+Ignore punctuation and assume sen will not be empty. Words may also contain numbers, for example "Hello world123 567"
+Examples
+
+Input: "fun&!! time"
+Output: time
+Input: "I love dogs"
+Output: love */
+function longestWord(sen) {
+  // Split the input string into words using a regular expression to handle punctuation
+  const words = sen.match(/\w+/g);
+  // If no words are found, return an empty string
+  if (!words) return "";
+
+  // Find the longest word using reduce
+  const longest = words.reduce((longest, current) => {
+    // Compare lengths of the current word and the longest found so far
+    return current.length > longest.length ? current : longest;
+  }, "");
+
+  return longest; // Return the longest word found
+} 
